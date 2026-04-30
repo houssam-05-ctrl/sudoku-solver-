@@ -47,7 +47,7 @@ This project is lightweight and requires no external third-party libraries.
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/sudoku-solver-csp.git
+   git clone https://github.com/houssam-05-ctrl/sudoku-solver-.git
    cd sudoku-solver-csp
    ```
 
