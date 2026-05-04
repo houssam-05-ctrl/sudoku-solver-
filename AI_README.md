@@ -46,7 +46,3 @@ Constraint propagation quickly detects dead-ends and accelerates the search. It 
 ## Conclusion
 
 This project demonstrates the practical application of artificial intelligence to a combinatorial problem. It highlights the power of CSPs and intelligent search techniques to efficiently solve complex problems.
-
----
-
-_Written by an AI professor and engineer._
