@@ -2,7 +2,7 @@
   --bg-color: #f8fafc;
   --text-primary: #1e293b;
   --text-secondary: #64748b;
-  --border-dark: #0f172a;
+  --border-dark: #000000;
   --border-light: #cbd5e1;
   --primary-color: #3b82f6;
   --primary-hover: #2563eb;
@@ -87,11 +87,11 @@ header p {
 }
 
 /* Thicker borders for 3x3 boxes */
-.cell:nth-child(3n) { border-right: 3px solid var(--border-dark); }
+.cell:nth-child(3n) { border-right: 4px solid var(--border-dark); }
 .cell:nth-child(9n) { border-right: none; }
 .cell:nth-child(n+19):nth-child(-n+27),
 .cell:nth-child(n+46):nth-child(-n+54) {
-  border-bottom: 3px solid var(--border-dark);
+  border-bottom: 4px solid var(--border-dark);
 }
 
 .cell:focus {
