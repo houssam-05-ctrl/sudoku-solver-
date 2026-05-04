@@ -66,20 +66,22 @@ header p {
   width: 100%;
   max-width: 450px;
   aspect-ratio: 1 / 1;
-  background-color: var(--border-dark);
   border: 4px solid var(--border-dark);
-  gap: 1px;
+  gap: 0;
 }
 
 .cell {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   border: none;
+  border-right: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--border-dark);
   background-color: white;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--text-primary);
+  font-weight: 600;
+  color: #000;
   outline: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -92,6 +94,9 @@ header p {
 .cell:nth-child(n+19):nth-child(-n+27),
 .cell:nth-child(n+46):nth-child(-n+54) {
   border-bottom: 4px solid var(--border-dark);
+}
+.cell:nth-child(n+73):nth-child(-n+81) {
+  border-bottom: none;
 }
 
 .cell:focus {

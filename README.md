@@ -8,7 +8,7 @@ An interactive Sudoku solver built with React and a FastAPI Python backend using
 
 ```bash
 cd backend
-python -m venv venv
+python -m venv venv #python3 if this door doesnt work
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
